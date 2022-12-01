@@ -14,3 +14,7 @@ class Foo(self, bar){
 println Foo("cccc")
 x = 2u256^130-5
 println x
+
+unittest pollyTest {
+    assert(2u256^130-5 == 1361129467683753853853498429727072845819u256)
+}
