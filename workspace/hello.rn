@@ -1,0 +1,16 @@
+println "Hello, World!"
+println min(0, 1)
+println ord("a")
+println chr(97)
+
+class Foo(self, bar){
+    self.bar = bar
+
+    func dodd(self){
+        println "aaaaa", self.bar, "vvvv"
+    }
+}
+
+println Foo("cccc")
+x = 2u256^130-5
+println x
